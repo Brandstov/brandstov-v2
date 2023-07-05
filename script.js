@@ -92,4 +92,6 @@ a.forEach(item => {
   });
 })
 
+const year = new Date().getFullYear()
+document.getElementById("year").innerHTML = year;
 console.log('What are you doing in my swamp?')
